@@ -1,0 +1,10 @@
+pandas
+numpy
+sktime
+traces
+scikit-learn
+matplotlib
+xgboost
+tsfresh
+torch
+pytorch_lightning
