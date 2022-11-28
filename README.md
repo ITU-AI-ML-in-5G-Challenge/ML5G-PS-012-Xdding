@@ -13,4 +13,6 @@ https://drive.google.com/file/d/1LUT96tVeihO8YIZAPBPL3suLUFj4H2W3/view?usp=shari
 
 `ML5G-PS-012-Xdding-Report.pdf`: Project write-up.
 
+`requirements.txt`: Packages that need to be installed if you want to run the notebooks. GPU is highly recommended for LSTM RNN notebook.
+
 `README.md`: You are here!
