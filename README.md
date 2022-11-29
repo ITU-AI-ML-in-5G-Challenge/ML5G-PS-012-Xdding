@@ -7,7 +7,7 @@ https://drive.google.com/file/d/1LUT96tVeihO8YIZAPBPL3suLUFj4H2W3/view?usp=shari
 # Repository Overview
 `models`: Directory storing the models that gave meaningful results: best RNN checkpoint, TSFresh + XGBoost model, and TSFresh + PCA + XGBoost model.
 
-`notebooks`: Directory storing notebooks for each approach mentioned in the report: ROCKET classifier, LSTM RNN, manual feature extraction + XGBoost model, both TSFresh + XGBoost model variants, and `ts_regularization.ipynb` to generate preprocessed data for ROCKET/LSTM RNN notebooks from included zip file (please download from Google Drive link above and unzip first).
+`notebooks`: Directory storing notebooks for each approach mentioned in the report: ROCKET classifier, LSTM RNN, manual feature extraction + XGBoost model, TSFresh + PCA + XGBoost model, and `ts_regularization.ipynb` to generate preprocessed data for ROCKET/LSTM RNN notebooks from included zip file (please download from Google Drive link above and unzip first).
 
 `ML5G-PS-012-Xdding-Presentation.pptx`: Project presentation.
 
