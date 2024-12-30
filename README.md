@@ -6,6 +6,12 @@ This repository contains the code and models for our paper "Enhancing User Exper
 
 Our novel time series characteristic-based method extracts thousands of descriptive statistics from time series sequences, achieving an impressive 67% validation accuracy. This represents a substantial 3% enhancement over the performance of conventional models on this dataset. We also explored the potential of a Recurrent Neural Network (RNN) model, which yielded promising results with a validation accuracy of 58%.
 
+<p align="center">
+  <img src="assets/figure1.png" alt="Network Architecture" width="600"/>
+  <br>
+  <em>Figure 1: Overview of the downlink network side architecture</em>
+</p>
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -32,6 +38,27 @@ The dataset, provided by ZTE, encompasses network indicator data from 500 anonym
 - Subjective definition of Internet experience
 - Lack of essential information regarding the data collection setup
 
+<table>
+  <tr>
+    <th>UBE Indicators</th>
+    <th>UGE Indicators</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="assets/figure2.png" alt="UBE Indicators Sample" width="100%"/>
+      <p align="center">
+        <em>Figure 2a: Network indicators for users reporting bad experience. Note the higher frequency and amplitude of spikes across multiple indicators.</em>
+      </p>
+    </td>
+    <td width="50%">
+      <img src="assets/figure3.png" alt="UGE Indicators Sample" width="100%"/>
+      <p align="center">
+        <em>Figure 2b: Network indicators for users reporting good experience. Observe the generally lower and more stable indicator values.</em>
+      </p>
+    </td>
+  </tr>
+</table>
+
 ## Methodology
 
 We explored various machine learning approaches:
@@ -52,6 +79,12 @@ We explored various machine learning approaches:
 ## Results
 
 Our TSFresh + XGBoost model achieved the highest performance with 67% validation accuracy, outperforming other approaches in the 2022 ITU AI/ML in 5G Challenge. The LSTM model also showed promise with 58% accuracy.
+
+<p align="center">
+  <img src="assets/figure10.png" alt="Network Architecture" width="600"/>
+  <br>
+  <em>Figure 10: TSFresh + XGBoost model confusion matrix</em>
+</p>
 
 ## Repository Structure
 ```
