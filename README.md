@@ -15,6 +15,7 @@ Our novel time series characteristic-based method extracts thousands of descript
 5. [Repository Structure](#repository-structure)
 6. [Installation and Usage](#installation-and-usage)
 7. [Acknowledgements](#acknowledgements)
+8. [Citation](#citation)
 
 ## Introduction
 
@@ -81,8 +82,6 @@ Note: A GPU is highly recommended for running the LSTM RNN notebook.
 We would like to thank ITU for organizing the 2022 AI/ML in 5G Challenge and ZTE for providing the problem statement and dataset. Special thanks to the Telecommunication Standardization Bureau (TSB) of ITU for their support and collaboration in co-authoring the research paper.
 
 ## Citation
-This research has been published in the ITU Journal on Future and Evolving Technologies, Volume 5, Issue 1, March 2024. For more details, please refer to the full paper: [Enhancing User Experience in Home Networks with Machine Learning-Based Classification](https://www.itu.int/en/journal/j-fet/Pages/default.aspx)
-
 If you use this code or our findings in your research, please cite:
 ```
 @article{rai2024enhancing,
@@ -101,3 +100,6 @@ This project is licensed under CC BY-NC-ND 3.0 IGO.
 
 ## Contact
 authorfirstnamelastname[at]gmail[dot]com
+
+---
+This research has been published in the ITU Journal on Future and Evolving Technologies, Volume 5, Issue 1, March 2024. For more details, please refer to the full paper: [Enhancing User Experience in Home Networks with Machine Learning-Based Classification](https://www.itu.int/en/journal/j-fet/Pages/default.aspx)
