@@ -81,7 +81,7 @@ We explored various machine learning approaches:
 Our TSFresh + XGBoost model achieved the highest performance with 67% validation accuracy, outperforming other approaches in the 2022 ITU AI/ML in 5G Challenge. The LSTM model also showed promise with 58% accuracy.
 
 <p align="center">
-  <img src="assets/figure10.png" alt="Confusion Matrix" width="600"/>
+  <img src="assets/figure10.png" alt="Confusion Matrix" width="400"/>
   <br>
   <em>Figure 10: TSFresh + XGBoost model confusion matrix</em>
 </p>
