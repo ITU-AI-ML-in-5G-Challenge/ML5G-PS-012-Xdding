@@ -70,6 +70,12 @@ We use linear interpolation to resample the data to fixed intervals, making it m
 - Unevenly spaced sampling rates
 - Non-standard time ranges
 
+<p align="center">
+  <img src="assets/figure4.png" alt="Linear Interpolation" width="600"/>
+  <br>
+  <em>Figure 3: Illustration of linear interpolation process</em>
+</p>
+
 ### Z-normalization 
 ```
 Z = (x - μ) / σ
@@ -78,6 +84,12 @@ We apply Z-normalization to transform input vectors so their mean is approximate
 - Enable focus on structural patterns rather than amplitude differences
 - Handle different units and scales across indicator columns
 - Make comparisons between indicators more meaningful
+
+<p align="center">
+  <img src="assets/figure5.png" alt="Z-normalization" width="600"/>
+  <br>
+  <em>Figure 4: Time series before and after Z‑normalization</em>
+</p>
 
 ### Low-noise Padding
 For handling unevenly-sized time series data, we use low-noise padding by:
@@ -89,6 +101,12 @@ This approach was chosen over alternatives like uniform scaling, truncation, and
 - Ease of implementation
 - Superior performance on our specific problem
 - Compatibility with our preprocessing pipeline
+
+<p align="center">
+  <img src="assets/figure6.png" alt="Low-noise Padding" width="600"/>
+  <br>
+  <em>Figure 5: Time series before and after low‑noise padding</em>
+</p>
 
 ## Methodology
 
@@ -114,7 +132,7 @@ Our TSFresh + XGBoost model achieved the highest performance with 67% validation
 <p align="center">
   <img src="assets/figure10.png" alt="Confusion Matrix" width="400"/>
   <br>
-  <em>Figure 10: TSFresh + XGBoost model confusion matrix</em>
+  <em>Figure 6: TSFresh + XGBoost model confusion matrix</em>
 </p>
 
 ## Repository Structure
