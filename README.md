@@ -132,4 +132,4 @@ If you use this code or our findings in your research, please cite:
 This project is licensed under CC BY-NC-ND 3.0 IGO.
 
 ---
-This research has been published in the ITU Journal on Future and Evolving Technologies, Volume 5, Issue 1, March 2024. For more details, please refer to the full paper: [Enhancing User Experience in Home Networks with Machine Learning-Based Classification](https://www.itu.int/pub/S-JNL-VOL5.ISSUE1-2024-A12)
+This research has been published in the ITU Journal on Future and Evolving Technologies, Volume 5, Issue 1, March 2024. For more details, please refer to the full paper: https://www.itu.int/pub/S-JNL-VOL5.ISSUE1-2024-A12
