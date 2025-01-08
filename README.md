@@ -59,6 +59,39 @@ The dataset, provided by ZTE, encompasses network indicator data from 500 anonym
   </tr>
 </table>
 
+## Data Preprocessing
+
+Our data preprocessing pipeline includes several essential steps to address challenges in the data:
+
+### Linear Interpolation
+We use linear interpolation to resample the data to fixed intervals, making it more manageable and easier to work with. This technique is particularly useful for handling:
+- Dense time series data
+- Unevenly spaced sampling rates
+- Non-standard time ranges
+
+### Z-normalization 
+We apply Z-normalization to transform input vectors so their mean is approximately zero and standard deviation is close to one. This helps:
+- Enable focus on structural patterns rather than amplitude differences
+- Handle different units and scales across indicator columns
+- Make comparisons between indicators more meaningful
+
+The formula used is:
+```
+Z = (x - μ) / σ
+```
+where x is the input vector, μ is its mean, and σ is its standard deviation.
+
+### Low-noise Padding
+For handling unevenly-sized time series data, we use low-noise padding by:
+- Adding low-amplitude noise (1e-6) to shorter time series
+- Padding sequences to match the length of the longest time series
+- Preserving signal integrity while enabling uniform analysis
+
+This approach was chosen over alternatives like uniform scaling, truncation, and ARIMA-based forecasting for its:
+- Ease of implementation
+- Superior performance on our specific problem
+- Compatibility with our preprocessing pipeline
+
 ## Methodology
 
 We explored various machine learning approaches:
