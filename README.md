@@ -16,7 +16,7 @@ Our novel time series characteristic-based method extracts thousands of descript
 
 1. [Introduction](#introduction)
 2. [Dataset](#dataset)
-3. [Data Processing](#datapreprocessing)
+3. [Data Processing](#data processing)
 4. [Methodology](#methodology)
 5. [Results](#results)
 6. [Repository Structure](#repository-structure)
@@ -60,10 +60,7 @@ The dataset, provided by ZTE, encompasses network indicator data from 500 anonym
   </tr>
 </table>
 
-## Data Preprocessing
-
-Our data preprocessing pipeline includes several steps to address these challenges in the data:
-
+## Data Processing
 ### Linear Interpolation
 We use linear interpolation to resample the data to fixed intervals, making it more manageable and easier to work with. This technique is particularly useful for handling:
 - Dense time series data
