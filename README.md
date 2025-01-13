@@ -16,7 +16,7 @@ Our novel time series characteristic-based method extracts thousands of descript
 
 1. [Introduction](#introduction)
 2. [Dataset](#dataset)
-3. [Data Processing](#data processing)
+3. [Data Processing](#data-processing)
 4. [Methodology](#methodology)
 5. [Results](#results)
 6. [Repository Structure](#repository-structure)
